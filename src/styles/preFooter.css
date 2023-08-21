@@ -1,0 +1,96 @@
+.preFooter{
+   padding: 1vmax;
+   padding-bottom: 0;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin: 2vmax;
+}
+.preFooter>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #333;
+}
+.preFooter >div p{
+    font-size: 1vmax;
+}
+.preFooter >div:hover svg{
+    fill: rgb(34,34,34);
+}
+.preFooter >div:hover p{
+    color: rgb(19,18,18);
+}
+.preFooter span{
+    text-align: center;
+}
+.preFooter svg{
+    transform: scale(2) translateY(-0.2vmax);
+    margin: 2vmax;
+    fill: rgba(37,37,37,0.322);
+}
+.preFooter2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 150px;
+}
+.preFooter2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.preFooter2 p{
+    color: #333;
+    width: 18vmax;
+    font-size: 1.5vmax;
+    margin: 0;
+}
+.preFooter2 > div > span{
+    width: 18vmax;
+    color: #999;
+    font-size: 1vmax;
+}
+.preFooter2 > div > div > input{
+    border: none;
+    outline: none;
+    /* border: 1px solid #333; */
+    padding: 0.1vmax .5vmax;
+    font-size: 1vmax;
+    width: 20.4vmax;
+}
+.preFooter2 > div > div {
+    border: 1px solid #333;
+}
+.preFooter2 div button{
+    border: none;
+    padding: 0.5vmax;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.5vmax;
+}
+/* .preFooter2 div button:hover{
+    transform:  scale(1.5);
+    
+} */
+
+.preFooter2 > div:nth-child(2) > span{
+    width: 22vmax;
+}
+.preFooter2 > div:nth-child(3){
+    justify-content: center;
+    align-items: flex-end;
+}
+.preFooter2 > div:nth-child(4){
+    flex-direction: row;
+}
+.preFooter2 > div:nth-child(4) > svg{
+    cursor: pointer;
+    margin: 1vmax;
+    fill: #999;
+}
+.preFooter2 > div:nth-child(4) > svg:hover{
+    fill: #333;
+    transition: all .3s !important;
+}

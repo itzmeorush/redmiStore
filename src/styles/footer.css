@@ -1,0 +1,58 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding: 4.5vmax;
+    background-color: #333;
+}
+.footer div{
+    margin: 1vmax;
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    color: white;
+    font-size: 1vmax;
+    margin: 0.6vmax 0;
+    color: #999;
+}
+.footer a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer p{
+    color: aliceblue;
+}
+.footer div:last-child > div{
+    width: 45%;
+    margin: 1vmax 0;
+    color: aliceblue;
+
+}
+ 
+.footer div:last-child >button{
+    outline: none;
+    width: 50%;
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 0.5vmax;
+    font-size: 1vmax;
+    font-weight: 200;
+}
+.footer div:last-child >button:hover{
+    background-color: white;
+    color: #333;
+}
+.footerBorder{
+    background-color: #333;
+    color:rgba(255, 255, 255, 0.583);
+    text-align: center;
+}
+.footerBorder div{
+    border-top: 1px solid #999;
+    width: 90vmax;
+    margin: auto;
+    padding: 2vmax;
+    font-size: 0.98vmax;
+}
